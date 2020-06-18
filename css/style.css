@@ -4,7 +4,7 @@
     display: flex;
 }
 .header, .popular {
-    max-width: 1440px;
+    max-width: 1170px;
     width: 90%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -22,7 +22,7 @@
 }
 .slider-img {
     background-image: url(../img/slider-img.png);
-    max-width: 1440px;
+    max-width: 1170px;
     width: 90%;
     height: 600px;
     background-position: center;
@@ -108,7 +108,7 @@
             align-items: center;
 }
 .footer {
-    max-width: 1440px;
+    max-width: 1170px;
     width: 90%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -237,4 +237,8 @@ ion-icon {
     margin-left: 0px;
     margin-right: 16px;
 }
+}
+.function myFunction() {
+  var x = "Total Width: " + screen.width + "px";
+  document.getElementById("demo").innerHTML = x;
 }
