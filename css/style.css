@@ -24,10 +24,10 @@ body{
         -ms-flex-align: center;
             align-items: center;
 }
-.image-box {
+.image-box{
     background-image: url(../image/image.png);
-    max-width: 1170px;
-    width: 100%;
+    max-width: 1440px;
+    width:100%;
     height: 600px;
     background-position: center;
     background-size: cover;
@@ -36,14 +36,14 @@ body{
     margin: 0 auto;
     -webkit-box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.05);
             box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.05);
-     align-items: flex-end;
+    align-items: flex-end;
     flex-direction: row-reverse;
     margin-top: 195px;
     margin-bottom: 50px;
     display: flex;
-    position: relative
-        
+    position: relative;
 }
+
 .popular h2 {
     font-family: 'MuseoModerno', cursive;
     font-size: 32px;
