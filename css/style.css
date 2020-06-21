@@ -246,4 +246,3 @@ ion-icon {
   var x = "Total Width: " + screen.width + "px";
   document.getElementById("demo").innerHTML = x;
 }
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
